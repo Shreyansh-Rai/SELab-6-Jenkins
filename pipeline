@@ -9,7 +9,7 @@ pipeline {
         stage('Build Code') {
             steps {
                 sh "chmod u+x code.py"
-                sh "./code.py"
+                sh "python3 code.py"
             }
         }
      stage('Test Code') {
