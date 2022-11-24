@@ -22,7 +22,7 @@ pipeline {
      stage('Test Code WILL FAIL') {
             steps {
                 sh "chmod u+x tests2.py"
-                sh "./tests.py"
+                sh "./tests2.py"
             }
         }
     } 
